@@ -1,0 +1,25 @@
+{
+  "name": "pi-lifecycle",
+  "version": "0.1.0",
+  "description": "Pi extension that records session and agent lifecycle events into session metadata.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "lifecycle"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  }
+}
